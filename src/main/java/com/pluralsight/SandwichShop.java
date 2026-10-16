@@ -22,7 +22,7 @@ public class SandwichShop {
             return;
         }
 
- //  Exercise 2: Add an extra charge for a loaded sandwich
+ //  Exercise 2  Add an extra charge for a loaded sandwich
 
         System.out.print("Would you like it loaded? (yes/no): ");
         String loaded = scanner.nextLine();
