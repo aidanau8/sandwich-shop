@@ -22,6 +22,20 @@ public class SandwichShop {
             return;
         }
 
+ //  Exercise 2: Add an extra charge for a loaded sandwich
+
+        System.out.print("Would you like it loaded? (yes/no): ");
+        String loaded = scanner.nextLine();
+
+        if (loaded.equalsIgnoreCase("yes")) {
+            if (size == 1) {
+                price = price + 1.00;
+            } else {
+                price = price + 1.75;
+            }
+        }
+
+
         System.out.print("Enter your age: ");
         userText = scanner.nextLine();
         int age = Integer.parseInt(userText);
